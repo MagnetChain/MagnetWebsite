@@ -1,0 +1,16 @@
+:root {
+    --primary-hue: 210deg; /* 科技蓝 */
+    --primary-saturation: 80%;
+    --primary-lightness: 45%;
+    --hx-color-accent: hsl(0, 0%, 80%); /* 银灰色作为辅助强调色，例如用于按钮、链接等 */
+}
+/* assets/css/custom.css */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif; /* 标题字体使用 Inter */
+    font-weight: bold; /* 可以同时设置字重 */
+}
+
+p, li { /* 段落和列表项字体 */
+    font-family: '思源黑体', 'Noto Sans SC', sans-serif; /* 段落和列表项使用思源黑体 */
+    line-height: 1.7; /* 可以调整行高增加可读性 */
+}
