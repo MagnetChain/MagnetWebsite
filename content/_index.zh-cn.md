@@ -5,8 +5,8 @@ layout: hextra-home
 
 {{< hextra/hero-badge >}}
   <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
-  <span>高速 低费 开放</span>
-  {{< icon name="arrow-circle-right" attributes="height=14" >}}
+  <span>高效的区块链平台</span>
+  {{< icon name="sparkles" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
 <div class="hx-mt-6 hx-mb-6">
@@ -31,29 +31,29 @@ layout: hextra-home
   {{< hextra/feature-grid >}}
   {{< hextra/feature-card
     title="快速且功能全面"
-    subtitle="简单易用，功能强大丰富。"
-    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="/images/nakamoto.png"
-    imageClass="hx-top-[40%] hx-left-[24px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
+    subtitle="快捷简单，闪电交易。<br>赋能下一代去中心化应用蓬勃发展<br>让我们构建更易用、更经济的区块链基础设施 <br><br>"
+    class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
+    image="/images/easy.webp"
+    imageClass="hx-top-[100%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(66,123,233,0.15),hsla(0,0%,60%,0));"
   >}}
   
   {{< hextra/feature-card
     title="高速 & 低费"
     subtitle="**超低 Gas 费**: 交易成本几乎可以忽略不计，让 DApp 真正普及。<br> **闪电般的速度**: 秒级交易确认，告别拥堵，体验丝滑流畅。"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-lg:hx-min-h-[340px]"
-    image="/images/crypto.png"
+    image="/images/highperformance.webp"
     imageClass="hx-top-[100%] hx-left-[36px] hx-w-[180%] sm:hx-w-[110%] dark:hx-opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(233,123,230,0.15),hsla(0,0%,60%,0));"
   >}}
   
   {{< hextra/feature-card
     title="完全 EVM 兼容"
     subtitle=" **100%** 兼容以太坊虚拟机，无需修改即可迁移和部署 Solidity 应用 <br> **生态繁荣**: 坐享以太坊成熟的开发工具、社区资源和庞大用户群体，快速构建应用生态"
     class="hx-aspect-auto md:hx-aspect-[1.1/1] max-md:hx-min-h-[340px]"
-    image="/images/ethereum.png"
+    image="/images/evm.webp"
     imageClass="hx-top-[100%] hx-left-[36px] hx-w-[110%] sm:hx-w-[110%] dark:hx-opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
+    style="background: radial-gradient(ellipse at 50% 80%,rgba(166,88,111,0.15),hsla(0,0%, 60%,0));"
   >}}
   
   {{< hextra/feature-card

@@ -18,7 +18,7 @@ languages:
   en:
     languageName: English
     weight: 1
-    title: Magnet High-performance BlockChain
+    title: Magnet BlockChain
   zh-cn:
     languageName: 简体中文
     languageCode: zh-CN
@@ -73,8 +73,13 @@ menu:
       weight: 5
       params:
         type: search
-    - name: GitHub
+    - name: X/Twitter
       weight: 6
+      url: "https://x.com/MagnetChain_CN"
+      params:
+        icon: twitter
+    - name: GitHub
+      weight: 7
       url: "https://github.com/MagnetChain/MagnetChain"
       params:
         icon: github
@@ -93,10 +98,20 @@ menu:
       name: "Docs ↗"
       url: "/docs"
       weight: 3
+    - name: GitHub
+      weight: 4
+      url: "https://github.com/MagnetChain/MagnetChain"
+      params:
+        icon: github
+    - name: X/Twitter
+      weight: 5
+      url: "https://x.com/MagnetChain_CN"
+      params:
+        icon: twitter
 
 
 params:
-    description: Magnet High-performance BlockChain
+    description: Magnet BlockChain
     navbar:
     displayTitle: true
     displayLogo: true
@@ -135,4 +150,4 @@ params:
       index: title
       # full | forward | reverse | strict
       # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
-      tokenize: forward
+      tokenize: full

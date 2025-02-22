@@ -13,7 +13,7 @@ excludeSearch: true
 
 ## Magnet Chain 简介
 
-Magnet Chain 是一条采用 POS 共识机制的，兼容 EVM 的第一层区块链，具有高性能的特点，最高可支持 3000+ TPS。这意味着 MagnetChain 可以处理大量的交易，而无需用户承担高昂的 Gas 费用。
+Magnet Chain 是一条采用 POS 共识机制的，兼容 EVM 的第一层区块链，具有高性能的特点，最高可支持 7000+ TPS。这意味着 MagnetChain 可以处理大量的交易，而无需用户承担高昂的 Gas 费用。
 
 Magnet 区块链原生代币 $MAG 总供应量设置为 2.1 亿枚，由 BSC 链上的 $MAG 代币一比一兑换而来。
 

@@ -2,16 +2,48 @@
 title: 部署钱包
 toc: false
 ---
-## 测试网参数
+
+{{< tabs items="主网,测试网" defaultIndex="0" >}}
+    {{< tab >}}
+## 主网参数
+
 {{% steps %}}
 
 ### 网络名称
 
-*    Magnet Chain
+*    Magnet Mainnet
     
 ### 新的 RPC URL
 
-*    https://node01.magnetchain.xyz/rpc
+*    https://node01.magnetchain.xyz/
+### 链 ID
+
+*    114514
+    
+### 货币符号
+
+*    MAG
+    
+### 区块浏览器 URL
+
+*    https://explorer.magnetchain.xyz/
+    
+        {{% /steps %}}
+    {{< /tab >}}
+    
+    
+    
+{{< tab >}}
+
+### 测试网参数
+{{% steps %}}
+### 网络名称
+
+*    Magnet test
+    
+### 新的 RPC URL
+
+*    https://nodetest.magnetchain.xyz/rpc
     
 ### 链 ID
 
@@ -27,7 +59,11 @@ toc: false
     
 {{% /steps %}}
 
-{{% details title="部署metamask钱包" closed="true" %}}
+{{< /tab >}}
+
+
+
+{{% details title="Metamask钱包部署教程" closed="false" %}}
 
 
 为了体验 Magnet 区块链的 DApp 和服务，你需要先将你的 MetaMask 钱包连接到 Magnet 网络。  MetaMask 是一款流行的浏览器扩展钱包，支持管理你的数字资产并与去中心化应用进行交互。
@@ -53,11 +89,11 @@ toc: false
 在弹出的网络列表中，向下拉到底部，点击 **“添加网络 (Add Network)”** 按钮。
 你将进入 “添加网络” 页面。  请在 **“添加网络”** 页面中，填写以下 Magnet 区块链网络的自定义 RPC 信息：
 
-*   **网络名称 (Network Name):**  `Magnet Chain`  (你可以自定义网络名称，例如 Magnet 主网)
-*   **新的 RPC URL (New RPC URL):**  `http://192.2.226.251:3003/rpc` 
-*   **链 ID (Chain ID):**  `115515` 
-*   **货币符号 (Currency Symbol):**  `Magnet`
-*   **区块浏览器 URL (Block Explorer URL (Optional)):**  `http://192.2.226.251:3003/dashboard`  **(可选，建议填写，方便在区块浏览器上查询交易记录)**
+*   **网络名称 (Network Name):**  `Magnet Mainnet`  (你可以自定义网络名称，例如 Magnet 主网)
+*   **新的 RPC URL (New RPC URL):**  `https://node01.magnetchain.xyz/` 
+*   **链 ID (Chain ID):**  `114514` 
+*   **货币符号 (Currency Symbol):**  `MAG`
+*   **区块浏览器 URL (Block Explorer URL (Optional)):**  `区块链浏览器地址`  **(可选，建议填写，方便在区块浏览器上查询交易记录)**
 
 填写完成后，点击 **“保存 (Save)”** 按钮。
 
@@ -65,3 +101,5 @@ toc: false
 保存成功后，你将返回网络列表。
 在列表中找到你刚刚添加的 **“Magnet Chain”** ，点击即可切换到 Magnet 区块链网络。
 {{% /details %}}
+
+{{< /tabs >}}

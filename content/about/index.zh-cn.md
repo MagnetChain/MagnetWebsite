@@ -5,20 +5,15 @@ toc: false
 
 ## 联系我们 / 加入我们
 
-**加入 Magnet 官方 Telegram 社群**
-欢迎加入我们的 Telegram 官方社群，获取最新的项目动态、技术支持和社区交流。
+加入我们的 **Telegram** 官方社群，获取最新的项目动态、技术支持和社区交流。
 
-- [Telegram 群组](https://t.me/magnet_chain_official)
+{{< card link="https://t.me/magnet_chain_official" title="Telegram" icon="telegram" >}}
 
-**加入 Magnet 官方 X/Twitter**
-欢迎加入我们的官方X/Twitter，获取最新媒体消息。
+加入我们的官方 **X/Twitter** ，获取最新媒体消息。
 
-- [X/Twitter](https://x.com/ChainMagne5615)
+{{< card link="https://x.com/MagnetChain_CN" title="X/Twitter" icon="twitter" >}}
 
-{{< cards >}}
-  {{< card link="https://t.me/magnet_chain_official" title="Telegram" icon="telegram" >}}
-  {{< card link="https://x.com/ChainMagne5615" title="X/Twitter" icon="twitter" >}}
-{{< /cards >}}
+
 
 {{% details title="关于Magnet团队" %}}
 
