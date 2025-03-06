@@ -22,8 +22,8 @@ layout: hextra-home
 </div>
 
 <div class="hx-mb-6">
-{{< hextra/hero-button text="现在开始" link="setwallet" >}}
-{{< hextra/hero-button text="加入社区" link="about/#%e8%81%94%e7%b3%bb%e6%88%91%e4%bb%ac--%e5%8a%a0%e5%85%a5%e6%88%91%e4%bb%ac" >}}
+{{< hextra/hero-button text="现在开始" link="docs/setwallet" >}}
+{{< hextra/hero-button text="加入社区" link="docs/about" >}}
 </div>
 
 <div class="hx-mt-6"></div>
