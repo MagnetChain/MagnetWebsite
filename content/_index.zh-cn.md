@@ -1,11 +1,11 @@
 ---
-title: Magnet-home
+title: Magnet
 layout: hextra-home
 ---
 
 {{< hextra/hero-badge >}}
   <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
-  <span>高效的区块链平台</span>
+  <span>Safety & High performamce</span>
   {{< icon name="sparkles" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
@@ -63,7 +63,7 @@ layout: hextra-home
   
   {{< hextra/feature-card
     title="兼容主流钱包"
-    subtitle="我们兼容市面上大多数去中心化钱包，比如metamsk,okx web3 wallet"
+    subtitle="我们兼容市面上大多数去中心化钱包，比如 Metamask,OKX web3 wallet,TP wallet"
   >}}
   
   {{< hextra/feature-card

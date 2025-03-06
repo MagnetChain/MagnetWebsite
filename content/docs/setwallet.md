@@ -1,6 +1,9 @@
 ---
 title: 部署钱包
 toc: false
+weight: 1
+next: /docs/setwallet
+prev: /docs
 ---
 
 {{< tabs items="主网,测试网" defaultIndex="0" >}}
@@ -15,7 +18,7 @@ toc: false
     
 ### 新的 RPC URL
 
-*    https://node01.magnetchain.xyz/
+*    https://node1.magnetchain.xyz/
 ### 链 ID
 
 *    114514
@@ -90,10 +93,10 @@ toc: false
 你将进入 “添加网络” 页面。  请在 **“添加网络”** 页面中，填写以下 Magnet 区块链网络的自定义 RPC 信息：
 
 *   **网络名称 (Network Name):**  `Magnet Mainnet`  (你可以自定义网络名称，例如 Magnet 主网)
-*   **新的 RPC URL (New RPC URL):**  `https://node01.magnetchain.xyz/` 
+*   **新的 RPC URL (New RPC URL):**  `https://node1.magnetchain.xyz/` 
 *   **链 ID (Chain ID):**  `114514` 
 *   **货币符号 (Currency Symbol):**  `MAG`
-*   **区块浏览器 URL (Block Explorer URL (Optional)):**  `区块链浏览器地址`  **(可选，建议填写，方便在区块浏览器上查询交易记录)**
+*   **区块浏览器 URL (Block Explorer URL (Optional)):**  `区块链浏览器地址`
 
 填写完成后，点击 **“保存 (Save)”** 按钮。
 
@@ -103,3 +106,13 @@ toc: false
 {{% /details %}}
 
 {{< /tabs >}}
+
+## 下一步
+
+探索以下部分以开始添加更多内容：
+
+{{< cards >}}
+  {{< card link="../guide/organize-files" title="in future" icon="document-duplicate" >}}
+  {{< card link="../guide/configuration" title="in future" icon="adjustments" >}}
+  {{< card link="../guide/markdown" title="in future" icon="markdown" >}}
+{{< /cards >}}

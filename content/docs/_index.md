@@ -30,10 +30,10 @@ Magnet Chain是一条采用POS共识机制的，兼容evm的第一层区块链�
 立即深入以下部分，开始使用：
 
 {{< cards >}}
-  {{< card link="getting-started" title="入门指南" icon="document-text" subtitle="学习如何使用Magnet构建Dapp" >}}
+  {{< card link="getting-started" title="部署钱包" icon="document-text" subtitle="如何导入区块链到去中心化钱包" >}}
 {{< /cards >}}
 
 {{< cards >}}
   {{< card link="https://t.me/magnet_chain_official" title="Telegram" icon="telegram" >}}
-  {{< card link="https://x.com/ChainMagne5615" title="X/Twitter" icon="twitter" >}}
+  {{< card link="https://x.com/MagnetChain_CN" title="X/Twitter" icon="twitter" >}}
 {{< /cards >}}
