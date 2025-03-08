@@ -1,12 +1,12 @@
 # Hugo configuration file
-title: "Magnet Blockchain"
+title: "MagnetChain"
 baseURL: "https://www.magnetchain.xyz/"
 
 module:
   imports:
   - path: github.com/imfing/hextra
 
-enableRobotsTXT: true
+enableRobotsTXT: false
 enableGitInfo: false
 enableEmoji: true
 hasCJKLanguage: true
@@ -16,12 +16,12 @@ languages:
   en:
     languageName: English
     weight: 1
-    title: Magnet
+    title: MagnetChain
   zh-cn:
     languageName: 简体中文
     languageCode: zh-CN
     weight: 2
-    title: Magnet
+    title: MagnetChain
 
 markup:
   highlight:
@@ -101,7 +101,7 @@ menu:
 
 
 params:
-    description: Magnet
+    description: MagnetChain
     navbar:
     displayTitle: true
     displayLogo: true
